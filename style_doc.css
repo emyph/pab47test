@@ -751,6 +751,12 @@ pre code {
 .col-11 {
   -ms-flex: 0 0 91.666667%;
   flex: 0 0 91.666667%;
+
+
+
+
+
+
   max-width: 91.666667%;
 }
 
@@ -1022,6 +1028,7 @@ pre code {
   .order-sm-7 {
     -ms-flex-order: 7;
     order: 7;
+
   }
   .order-sm-8 {
     -ms-flex-order: 8;
@@ -1254,6 +1261,7 @@ pre code {
   .offset-md-2 {
     margin-left: 16.666667%;
   }
+
   .offset-md-3 {
     margin-left: 25%;
   }
@@ -2302,6 +2310,7 @@ textarea.form-control {
 
 .was-validated .form-check-input:valid ~ .valid-feedback,
 .was-validated .form-check-input:valid ~ .valid-tooltip, .form-check-input.is-valid ~ .valid-feedback,
+
 .form-check-input.is-valid ~ .valid-tooltip {
   display: block;
 }
@@ -2399,6 +2408,8 @@ textarea.form-control {
 .was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {
   color: #dc3545;
 }
+
+
 
 .was-validated .form-check-input:invalid ~ .invalid-feedback,
 .was-validated .form-check-input:invalid ~ .invalid-tooltip, .form-check-input.is-invalid ~ .invalid-feedback,
@@ -2549,6 +2560,7 @@ textarea.form-control {
 
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
+
 }
 
 a.btn.disabled,
@@ -3407,9 +3419,9 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item.active, .dropdown-item:active {
-  color: #fff;
+  color: #212529;
   text-decoration: none;
-  background-color: #007bff;
+  background-color: #F2F2F2;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3441,6 +3453,7 @@ input[type="button"].btn-block {
 .btn-group-vertical {
   position: relative;
   display: -ms-inline-flexbox;
+
   display: inline-flex;
   vertical-align: middle;
 }
@@ -5587,6 +5600,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     border-bottom-left-radius: 0;
   }
   .list-group-horizontal-sm .list-group-item.active {
+
     margin-top: 0;
   }
   .list-group-horizontal-sm .list-group-item + .list-group-item {
@@ -8331,6 +8345,7 @@ button.bg-dark:focus {
 }
 
 .pb-3,
+
 .py-3 {
   padding-bottom: 1rem !important;
 }
@@ -8635,6 +8650,7 @@ button.bg-dark:focus {
   .my-sm-5 {
     margin-top: 3rem !important;
   }
+
   .mr-sm-5,
   .mx-sm-5 {
     margin-right: 3rem !important;
@@ -9109,6 +9125,7 @@ button.bg-dark:focus {
   .m-md-n1 {
     margin: -0.25rem !important;
   }
+
   .mt-md-n1,
   .my-md-n1 {
     margin-top: -0.25rem !important;
